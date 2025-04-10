@@ -1,0 +1,22 @@
+2025-04-10 23:42:51 [[32minfo[39m]: undefined
+2025-04-10 23:43:01 [[32minfo[39m]: undefined
+2025-04-10 23:43:09 [[32minfo[39m]: undefined
+2025-04-10 23:43:11 [[32minfo[39m]: undefined
+2025-04-10 23:43:11 [[32minfo[39m]: undefined
+2025-04-10 23:43:11 [[32minfo[39m]: undefined
+2025-04-10 23:43:12 [[32minfo[39m]: undefined
+2025-04-10 23:45:49 [[32minfo[39m]: undefined
+2025-04-10 23:45:49 [[32minfo[39m]: undefined
+2025-04-10 23:45:49 [[32minfo[39m]: undefined
+2025-04-10 23:45:55 [[32minfo[39m]: undefined
+2025-04-10 23:45:55 [[32minfo[39m]: undefined
+2025-04-10 23:45:55 [[32minfo[39m]: undefined
+2025-04-10 23:49:43 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-10 23:49:43 [[32minfo[39m]: POST /user - UserID: [object Object] endpoint hit
+2025-04-10 23:49:43 [[32minfo[39m]: ⬅️ POST /api/login responded in 15ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzMDkxODMsImV4cCI6MTc0NDMxMjc4M30.DU-lRi9Wa9QUHr4i2mcAJPddo9IdGjGWrBWQ3VNcRSk"}
+2025-04-10 23:51:11 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-10 23:51:11 [[32minfo[39m]: ⬅️ POST /api/login responded in 13ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzMDkyNzEsImV4cCI6MTc0NDMxMjg3MX0.krJ8QrlPiU_BTG6g2_lA17vTJqwz8u41AEQQFSX8qTM"}
+2025-04-10 23:51:16 [[32minfo[39m]: ➡️ GET /api/User hit
+2025-04-10 23:51:16 [[32minfo[39m]: ⬅️ GET /api/User responded in 6ms: {"message":"Welcome User!","user":"139428"}
+2025-04-10 23:51:30 [[32minfo[39m]: ➡️ GET /api/admin hit
+2025-04-10 23:51:30 [[32minfo[39m]: ⬅️ GET /api/admin responded in 4ms: {"message":"Forbidden: Insufficient rights"}
