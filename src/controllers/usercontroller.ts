@@ -2,7 +2,7 @@ import {Request, Response, RequestHandler} from "express";
 import jwt from "jsonwebtoken";
 import { getUserById,ROLES } from "../models/userModel";
 import { AuthRequest } from "../middlewares/authMiddleware";
-import { logger } from "../utils/logger";
+
 
 
 export const login = (req: Request, res: Response): Response => {

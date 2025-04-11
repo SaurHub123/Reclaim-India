@@ -20,3 +20,44 @@
 2025-04-10 23:51:16 [[32minfo[39m]: ⬅️ GET /api/User responded in 6ms: {"message":"Welcome User!","user":"139428"}
 2025-04-10 23:51:30 [[32minfo[39m]: ➡️ GET /api/admin hit
 2025-04-10 23:51:30 [[32minfo[39m]: ⬅️ GET /api/admin responded in 4ms: {"message":"Forbidden: Insufficient rights"}
+2025-04-11 22:36:24 [[32minfo[39m]: ➡️ GET /api/admin hit
+2025-04-11 22:36:24 [[32minfo[39m]: ⬅️ GET /api/admin responded in 30ms: {"message":"Invalid token"}
+2025-04-11 22:36:34 [[32minfo[39m]: ➡️ POST /api/admin hit
+2025-04-11 22:36:40 [[32minfo[39m]: 🗑️ DELETE request from IP: ::ffff:127.0.0.1, Origin: undefined
+2025-04-11 22:36:40 [[33mwarn[39m]: ❌ DELETE blocked from disallowed origin: undefined
+2025-04-11 22:36:54 [[32minfo[39m]: 🗑️ DELETE request from IP: ::ffff:127.0.0.1, Origin: undefined
+2025-04-11 22:36:54 [[33mwarn[39m]: ❌ DELETE blocked from disallowed origin: undefined
+2025-04-11 22:39:25 [[32minfo[39m]: 🗑️ DELETE request from IP: ::ffff:127.0.0.1, Origin: undefined
+2025-04-11 22:39:25 [[32minfo[39m]: ➡️ DELETE /api/admin hit
+2025-04-11 22:40:29 [[32minfo[39m]: ➡️ DELETE /api/admin hit
+2025-04-11 22:41:01 [[32minfo[39m]: ➡️ DELETE /api/admin hit
+2025-04-11 22:41:04 [[32minfo[39m]: ➡️ DELETE /api/admin hit
+2025-04-11 22:42:07 [[32minfo[39m]: 🗑️ DELETE request from IP: ::ffff:127.0.0.1, Origin: undefined
+2025-04-11 22:42:07 [[32minfo[39m]: ➡️ DELETE /api/admin hit
+2025-04-11 22:42:22 [[32minfo[39m]: 🗑️ DELETE request from IP: ::ffff:127.0.0.1, Origin: undefined
+2025-04-11 22:42:22 [[32minfo[39m]: ➡️ DELETE /api/admin hit
+2025-04-11 22:42:31 [[32minfo[39m]: 🗑️ DELETE request from IP: ::ffff:127.0.0.1, Origin: undefined
+2025-04-11 22:42:31 [[32minfo[39m]: ➡️ DELETE /api/admin hit
+2025-04-11 22:43:20 [[32minfo[39m]: 🗑️ DELETE request from IP: ::ffff:127.0.0.1, Origin: undefined
+2025-04-11 22:43:20 [[33mwarn[39m]: ✔ DELETE Allowed from disallowed origin: undefined
+2025-04-11 22:43:20 [[32minfo[39m]: ➡️ DELETE /api/admin hit
+2025-04-11 23:04:49 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:49 [[32minfo[39m]: ⬅️ POST /api/login responded in 12ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4ODksImV4cCI6MTc0NDM5NjQ4OX0.jEtp9KFjkMNNwmZFEi408Kyz05nVM55tsgTOSs4VUbQ"}
+2025-04-11 23:04:49 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:49 [[32minfo[39m]: ⬅️ POST /api/login responded in 4ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4ODksImV4cCI6MTc0NDM5NjQ4OX0.jEtp9KFjkMNNwmZFEi408Kyz05nVM55tsgTOSs4VUbQ"}
+2025-04-11 23:04:50 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:50 [[32minfo[39m]: ⬅️ POST /api/login responded in 3ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTAsImV4cCI6MTc0NDM5NjQ5MH0.nifxDqDrPkttbt1CEmCNawUQ1A_xGfmA5xm6ykq81wM"}
+2025-04-11 23:04:50 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:50 [[32minfo[39m]: ⬅️ POST /api/login responded in 2ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTAsImV4cCI6MTc0NDM5NjQ5MH0.nifxDqDrPkttbt1CEmCNawUQ1A_xGfmA5xm6ykq81wM"}
+2025-04-11 23:04:50 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:50 [[32minfo[39m]: ⬅️ POST /api/login responded in 4ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTAsImV4cCI6MTc0NDM5NjQ5MH0.nifxDqDrPkttbt1CEmCNawUQ1A_xGfmA5xm6ykq81wM"}
+2025-04-11 23:04:51 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:51 [[32minfo[39m]: ⬅️ POST /api/login responded in 3ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTEsImV4cCI6MTc0NDM5NjQ5MX0.e-YOaZwctFk7LgVH-AMZeYBDwENxgNcSMN7FuVPei1s"}
+2025-04-11 23:04:51 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:51 [[32minfo[39m]: ⬅️ POST /api/login responded in 4ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTEsImV4cCI6MTc0NDM5NjQ5MX0.e-YOaZwctFk7LgVH-AMZeYBDwENxgNcSMN7FuVPei1s"}
+2025-04-11 23:04:51 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:51 [[32minfo[39m]: ⬅️ POST /api/login responded in 3ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTEsImV4cCI6MTc0NDM5NjQ5MX0.e-YOaZwctFk7LgVH-AMZeYBDwENxgNcSMN7FuVPei1s"}
+2025-04-11 23:04:52 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:52 [[32minfo[39m]: ⬅️ POST /api/login responded in 4ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTIsImV4cCI6MTc0NDM5NjQ5Mn0.FUt3hnkB6xrQLaBCSX0xsXyIcyAQkpS08ODsuLWPUFI"}
+2025-04-11 23:04:52 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:04:52 [[32minfo[39m]: ⬅️ POST /api/login responded in 3ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTIsImV4cCI6MTc0NDM5NjQ5Mn0.FUt3hnkB6xrQLaBCSX0xsXyIcyAQkpS08ODsuLWPUFI"}
