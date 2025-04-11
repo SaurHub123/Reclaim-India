@@ -61,3 +61,9 @@
 2025-04-11 23:04:52 [[32minfo[39m]: ⬅️ POST /api/login responded in 4ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTIsImV4cCI6MTc0NDM5NjQ5Mn0.FUt3hnkB6xrQLaBCSX0xsXyIcyAQkpS08ODsuLWPUFI"}
 2025-04-11 23:04:52 [[32minfo[39m]: ➡️ POST /api/login hit
 2025-04-11 23:04:52 [[32minfo[39m]: ⬅️ POST /api/login responded in 3ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTI4OTIsImV4cCI6MTc0NDM5NjQ5Mn0.FUt3hnkB6xrQLaBCSX0xsXyIcyAQkpS08ODsuLWPUFI"}
+2025-04-11 23:10:34 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:11:15 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:11:27 [[32minfo[39m]: ➡️ POST /api/login hit
+2025-04-11 23:11:27 [[32minfo[39m]: ⬅️ POST /api/login responded in 31ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTMyODcsImV4cCI6MTc0NDM5Njg4N30.YLHXDMabJ4qwJpS66WLYrM4GSTpkVIFNviaU-v2k95U"}
+2025-04-11 23:11:37 [[32minfo[39m]: ➡️ GET /api/admin hit
+2025-04-11 23:11:37 [[32minfo[39m]: ⬅️ GET /api/admin responded in 7ms: {"message":"Invalid token"}
