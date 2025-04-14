@@ -7,7 +7,7 @@ import { ROLES } from "../models/userModel";
 const router = express.Router();
 
 router.post('/login', controller.login as any);
-
+router.post('/register', controller.registerUser as any);
 router.get('/admin', verifyToken as any, authorize([ROLES.ADMIN]) as any, controller.getAdminData);
 router.get('/user', verifyToken as any, authorize([ROLES.ADMIN, ROLES.USER]) as any, controller.getUserData);
 router.get('/guest', verifyToken as any, authorize([ROLES.ADMIN, ROLES.USER, ROLES.GUEST]) as any, controller.getGuestData);

@@ -1,5 +1,4 @@
 import express from "express";
-import {Request, Response, NextFunction, RequestHandler} from "express";
 import dotenv from "dotenv";
 import { logRequests } from "./middlewares/loggerMiddleware";
 import cors from "cors";
@@ -7,10 +6,12 @@ import {delOrigin} from "./middlewares/corsMiddleware";
 import { apiLimiter } from "./middlewares/rateLimiterMiddleware";
 import userRoutes from './routes/userRoute'
 import bodyParser from "body-parser";
+import { connectMongoDB } from "./configs/mongoDB/connection";
 dotenv.config();
 const app = express();
 const PORT =process.env.PORT || 4001
 
+connectMongoDB();
 app.use(apiLimiter);
 app.use(delOrigin as any);
 app.use(cors())

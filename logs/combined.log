@@ -67,3 +67,32 @@
 2025-04-11 23:11:27 [[32minfo[39m]: ⬅️ POST /api/login responded in 31ms: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMzk0MjgiLCJpYXQiOjE3NDQzOTMyODcsImV4cCI6MTc0NDM5Njg4N30.YLHXDMabJ4qwJpS66WLYrM4GSTpkVIFNviaU-v2k95U"}
 2025-04-11 23:11:37 [[32minfo[39m]: ➡️ GET /api/admin hit
 2025-04-11 23:11:37 [[32minfo[39m]: ⬅️ GET /api/admin responded in 7ms: {"message":"Invalid token"}
+2025-04-12 18:46:33 [[31merror[39m]: 🔴 MongoDB connection error: connect ECONNREFUSED ::1:27017
+2025-04-12 18:47:44 [[31merror[39m]: 🔴 MongoDB connection error: connect ECONNREFUSED ::1:27017
+2025-04-12 18:49:04 [[31merror[39m]: 🔴 MongoDB connection error: bad auth : authentication failed
+2025-04-12 18:49:32 [[31merror[39m]: 🔴 MongoDB connection error: bad auth : authentication failed
+2025-04-12 18:54:32 [[32minfo[39m]: 🟢 MongoDB connected successfully
+2025-04-12 19:03:53 [[32minfo[39m]: 🟢 MongoDB connected successfully
+2025-04-12 19:06:48 [[32minfo[39m]: 🟢 MongoDB connected successfully
+2025-04-12 19:08:40 [[32minfo[39m]: 🟢 MongoDB connected successfully
+2025-04-12 19:11:26 [[32minfo[39m]: ➡️ POST /api/register hit
+2025-04-12 19:11:27 [[32minfo[39m]: ✅ User registered: ravi.sharma@example.com
+2025-04-12 19:11:27 [[32minfo[39m]: ⬅️ POST /api/register responded in 199ms: {"message":"User registered successfully","data":{"firstName":"Ravi","middleName":"Kumar","lastName":"Sharma","email":"ravi.sharma@example.com","phone":"9876543210","country":"India","state":"Punjab","dist":"Mohali","landmark":"Near Phase 7","houseNo":"H-123","alternateNumber":"9988776655","walletId":"WALLET12345","ActivityFlag":true,"_id":"67fa6d8610ff1d142fd56d76","createdAt":"2025-04-12T13:41:26.949Z","updatedAt":"2025-04-12T13:41:26.949Z","__v":0}}
+2025-04-12 19:14:33 [[32minfo[39m]: 🟢 MongoDB connected successfully
+2025-04-12 19:14:34 [[32minfo[39m]: ➡️ POST /api/register hit
+2025-04-12 19:14:35 [[32minfo[39m]: ✅ User registered: ravi.sharma@example.com
+2025-04-12 19:14:35 [[32minfo[39m]: ⬅️ POST /api/register responded in 766ms: {"message":"User registered successfully","data":{"firstName":"Ravi","middleName":"Kumar","lastName":"Sharma","email":"ravi.sharma@example.com","phone":"9876543210","country":"India","state":"Punjab","dist":"Mohali","landmark":"Near Phase 7","houseNo":"H-123","alternateNumber":"9988776655","walletId":"WALLET12345","ActivityFlag":true,"_id":"67fa6e432a39787e14a9a0d0","createdAt":"2025-04-12T13:44:35.071Z","updatedAt":"2025-04-12T13:44:35.071Z","__v":0}}
+2025-04-12 19:18:38 [[32minfo[39m]: 🟢 MongoDB connected successfully to test
+2025-04-12 19:20:31 [[32minfo[39m]: 🟢 MongoDB connected successfully to test
+2025-04-12 19:21:41 [[32minfo[39m]: 🟢 MongoDB connected successfully to test
+2025-04-12 19:21:59 [[32minfo[39m]: 🟢 MongoDB connected successfully to test
+2025-04-12 19:23:33 [[32minfo[39m]: 🟢 MongoDB connected successfully to Reclaim-India
+2025-04-12 19:23:58 [[32minfo[39m]: 🟢 MongoDB connected successfully to D-mart
+2025-04-12 19:24:33 [[32minfo[39m]: 🟢 MongoDB connected successfully to D-mart
+2025-04-12 19:24:39 [[32minfo[39m]: ➡️ POST /api/register hit
+2025-04-12 19:24:39 [[32minfo[39m]: ✅ User registered: ravi.sharma@example.com
+2025-04-12 19:24:39 [[32minfo[39m]: ⬅️ POST /api/register responded in 166ms: {"message":"User registered successfully","data":{"firstName":"Ravi","middleName":"Kumar","lastName":"Sharma","email":"ravi.sharma@example.com","phone":"9876543210","country":"India","state":"Punjab","dist":"Mohali","landmark":"Near Phase 7","houseNo":"H-123","alternateNumber":"9988776655","walletId":"WALLET12345","ActivityFlag":true,"_id":"67fa709fc6ac2862b23ca698","createdAt":"2025-04-12T13:54:39.430Z","updatedAt":"2025-04-12T13:54:39.430Z","__v":0}}
+2025-04-12 19:24:41 [[32minfo[39m]: ➡️ POST /api/register hit
+2025-04-12 19:24:41 [[32minfo[39m]: ⬅️ POST /api/register responded in 73ms: {"message":"User with given email, phone, or walletId already exists"}
+2025-04-12 19:24:53 [[32minfo[39m]: ➡️ POST /api/register hit
+2025-04-12 19:24:53 [[32minfo[39m]: ⬅️ POST /api/register responded in 62ms: {"message":"User with given email, phone, or walletId already exists"}
